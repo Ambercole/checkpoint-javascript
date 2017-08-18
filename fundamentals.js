@@ -2,27 +2,35 @@
 
 // #1: Create an array of strings called `colors` that contains three colors.
 // Type your solution immediately below this line:
-
+var colors = ["purple", "pink", "white"]
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-
+var last = "white"
 
 
 // #3: Create an empty array called `favoriteColors`.
 // Type your solution immediately below this line:
-
+var favoriteColors = []
 
 
 // #4: Create a `for` loop that adds each string in `colors` to `favoriteColors`.
 // Type your solution immediately below this line:
+var favoriteColors
+for (i = 0; i < colors.length; i++) {
+    favoriteColors = colors[i]
+}
 
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
-
+var instructor = {
+  teaching-ability:[0,1,2,3,4,5],
+  age: 30,
+  lesson-plan: true
+}
 
 
 // #6: Add a `facial-hair` (spelled exactly) property to `instructor` by accessing
